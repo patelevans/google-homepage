@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            float: inline-start;
+            padding: 10px;
+        }
+
+        a {
+            display: block;
+        }
+
+        header{
+            position: fixed;
+            top: 0;
+        }
+
+        #header-left {
+            position: fixed;
+            left: 0;
+        }
+
+        #header-right {
+            position: fixed;
+            right: 0;
+        }
+
+        .body {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        footer{
+            position: fixed;
+            bottom: 40px;
+        }
+
+        #footer-left {
+            position: fixed;
+            left: 0;
+        }
+
+        #footer-right {
+            position: fixed;
+            right: 0;
+        }
+    </style>
+
+    <header>
+        <ul id="header-left">
+            <li><a href="">About</a></li>
+            <li><a href="">Store</a></li>
+        </ul>
+        <ul id="header-right">
+            <li><a href="">Gmail</a></li>
+            <li><a href="">Images</a></li>
+            <li>Apps-Button</li>
+            <li>Name</li>
+        </ul>
+    </header>
+
+    <body>
+        <div class="body">
+            <div id="google-logo-image">
+                <p><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></p>
+            </div>
+            <div id="search-box-and-button">
+                <form>
+                    <input id="Searchbox" placeholder="Search Google or type a URL">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <div id="legacy-buttons">
+                <button type="search">Google Search</button>
+                <button type="lucky">I'm Feeling Lucky</button>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <ul id="footer-left">
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search works</a></li>
+        </ul>
+        <ul id="footer-right">
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>
+    </footer>
+</html>
